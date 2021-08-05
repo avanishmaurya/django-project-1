@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>home page</title>
+  </head>
+  <body>
+    <h1>hello this is index.html page...</h1>
+    <h3>my name is avanish kumar</h3>
+    <h3>The list of topic</h3>
+    {% for x in insert_me %}
+    <table>
+      <tr>
+        <td>{{x.top_name}}</td>
+      </tr>
+    </table>
+    {% endfor %}
+    <br>
+    <a href="http://127.0.0.1:8000/admin/"><b>Admin page</b></a>
+
+  </body>
+</html>
